@@ -1,0 +1,4 @@
+interface:
+  display_name: "提取飞书妙记逐字稿"
+  short_description: "从可访问的飞书妙记链接提取并保存完整的带时间戳逐字稿"
+  default_prompt: "使用 $extracting-feishu-minutes-transcripts 从这个可访问的飞书妙记链接提取完整 Markdown 逐字稿。"

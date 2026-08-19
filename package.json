@@ -1,0 +1,18 @@
+{
+  "name": "feishu-minutes-transcript-skill",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A Codex skill for extracting complete timestamped transcripts from accessible Feishu/Lark Minutes links on Windows.",
+  "type": "module",
+  "scripts": {
+    "check": "node --check scripts/fetch-feishu-transcript.mjs",
+    "test": "node --test scripts/fetch-feishu-transcript.test.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "playwright-core": "^1.62.1"
+  },
+  "license": "MIT"
+}
